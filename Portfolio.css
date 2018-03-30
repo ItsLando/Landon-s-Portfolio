@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background: url('images/clutter.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.main-nav {
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  text-align: right;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 30px;
+  color: white;
+  text-shadow: 1px 1px 40px black;
+}
+
+header {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+
+.self-portrait {
+  border: 3px solid white;
+  border-radius: 25%;
+}
+
+.group {
+  text-align: center;
+}
+
+
+.body-background {
+  padding: .8%;
+  background-color: white;
+  border-radius: 10%;
+  float: left;
+  width: 46.5%;
+  height: 300px;
+  box-shadow: 0px 0px 90px;
+}
+
+.body-goals {
+  padding: .8%;
+  background-color: white;
+  border-radius: 10%;
+  float: right;
+  max-width: 46.5%;
+  height: 300px;
+  box-shadow: 0px 0px 90px;
+}
+
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+a.twitter {
+  background-image: url(images/twitter.png);
+}
+
+a.linkedin {
+  background-image: url(images/linkedin.png);
+}
+
+a.github {
+  background-image: url(images/github.png);
+
+}
+
+a.social:hover {
+  opacity: 1;
+}
